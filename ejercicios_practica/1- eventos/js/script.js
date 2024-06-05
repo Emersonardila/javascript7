@@ -65,7 +65,7 @@ anterior.
 const input=document.querySelector("input");
 const parrafo=document.getElementById("parrafo");
 function datos(e){
-    parrafo.textContent=e.target.value;
+    parrafo.textContent=alert(e.target.value);
 }
 input.addEventListener("change",datos);
 
